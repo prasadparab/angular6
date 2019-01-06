@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angularConcepts';
+  receivedMenu:String;
+  menuReceived(menu){
+    console.log("menu received "+menu);
+    this.receivedMenu=menu;
+  }
 }
