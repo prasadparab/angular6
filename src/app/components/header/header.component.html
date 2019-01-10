@@ -1,4 +1,5 @@
-<p>
+<div [appCardHover]="{querySelector:'p'}"> <p>
   header works!
 </p>
+</div>
 <a *ngFor="let menu of menu" (click)="OnMenuClicked($event)"> {{ menu }} </a>
